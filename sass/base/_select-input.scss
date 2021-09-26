@@ -1,0 +1,55 @@
+.select-input {
+    height: 34px;
+    min-width: 150px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background-color: $white-color;
+    color: $text-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+        &:hover &__list{
+        display: block;
+    }
+    &::before {
+        content: "";
+        height: 5px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+    &__label {
+        font-size:1.4rem;
+    }
+    &__icon {
+        font-size: 1.4rem;
+        color: rgb(131, 131, 131);
+        position: relative;
+    }
+    &__list {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 27px;
+        background-color: $white-color;
+        border-radius: 2px;
+        padding: 10px 16px;
+        display: none;
+        z-index: 1;
+    }
+    &__item {
+        list-style: none;
+    }
+    &__link {
+        text-decoration: none;
+        color: $text-color;
+        font-size: 1.4rem;
+        display: block;
+        padding: 5px 0;
+        &:hover{
+            color: $color-primary-text;
+        }
+    }
+}

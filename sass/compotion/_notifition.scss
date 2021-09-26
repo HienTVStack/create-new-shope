@@ -1,0 +1,95 @@
+.header__notify {
+    position: absolute;
+    top: calc(100% + 10px);
+    width: 40.4rem;
+    background-color: $white-color;
+    right: 0;
+    border: 1px solid #d3d3d3;
+    transform-origin: calc(100% - 2rem) top;
+    animation: header__notifyGrowth ease-in 0.3s;
+    will-change: opacity, transform;
+    display: none;
+    border-radius: 3px;
+//    z-index: 1000000;
+    &::before {
+        content: '';
+        border-width: 2rem 3rem;
+        border-style: solid;
+        border-color: transparent transparent $white-color transparent;
+        position: absolute;
+        right: 0.2rem;
+        top: -2.8rem;
+    }
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 9rem;
+        top: -10px;
+        right: 0;
+        height: 2rem;
+    }
+    &--header {
+        height: 4rem;
+        background-color: $white-color;
+        cursor: default;
+        user-select: none;
+
+        h3 {
+            color: #666;
+            margin: 0 0 0 1.2rem;
+            font-weight: 400;
+            font-size: 1.4rem;
+            opacity: 0.6;
+            line-height: 4rem;            
+        }
+    }
+    &--list{
+        padding-left: 0;
+    }
+    &--item:hover {
+        background-color: #f7f7f7;
+    }
+
+    &--link {
+        display: flex;
+        padding: 1.2rem;
+        text-decoration: none;
+        background-color: rgba(#fe6433, 0.1)
+    }
+    &--img {
+        width: 4.8rem;
+        object-fit: contain;
+    }
+    &--info {
+        flex: 1;
+        margin-left:1.2rem;
+    }
+    &--name {
+        display: block;
+        font-size: 1.4rem;
+        color: $black-color;
+        font-weight: 400;
+        line-height: 1.8rem;
+    }
+    &--description {
+        display: block;
+        font-size: 1.2rem;
+        color: $black-color;
+        opacity: 0.8;
+        line-height: 1.8rem;
+        margin-top: 0.4rem;
+    }
+    &--footer {
+        padding: 1rem;
+        &-btn {
+            text-decoration: none;
+            text-align: center;
+            padding: 0.4rem 1.6rem;
+            color: $black-color;
+            font-weight: 400;
+            font-size: 1.4rem;
+            width: 100%;
+        }   
+    }
+}

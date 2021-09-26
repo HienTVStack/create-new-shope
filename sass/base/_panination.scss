@@ -1,0 +1,33 @@
+.pagination {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-item {
+        list-style-type: none;
+        margin: 0 12px;
+        &__link {
+            text-decoration: none;
+            display: block;
+            font-size: 1.8rem;
+            color: #939393;
+            height: 30px;
+            line-height: 30px;
+            min-width: 40px;
+            text-align: center;
+            font-weight: 300;
+        }
+        &__icon {
+
+        }
+        &--action &__link {
+            background-color:$color-primary-text;
+            color: $white-color;
+            &:hover {
+                background-color:rgba($color-primary-text, 0.8);
+            }
+        }
+    }
+}
+
+

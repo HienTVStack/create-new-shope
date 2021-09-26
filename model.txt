@@ -1,0 +1,95 @@
+<div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body">
+            <div class="modal__inner">
+
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng kí</h3>
+                           <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+                        <div class="auth-form__form">
+                    
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__police-text">
+                                Bằng việc đăng kí, bạn đã đồng ý với Shopee về
+                                <a href="" class="auth-form__link">
+                                    Điều khoản dịch vụ
+                                </a>&
+                                <a href="" class="auth-form__link">
+                                    Chính sách bảo mật
+                                </a>
+                            </p>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn auth-form__controls-back">Trở lại</button>
+                            <button class="btn btn--primary">ĐĂNG KÍ</button>
+                        </div>
+                        <div class="auth-form__socials">
+                            <a href="" class="btn btn--with-icon btn--size-s">
+                               <i class="fab fa-facebook-square"></i>
+                                Kết nối với facebook
+                            </a>
+                            <a href="" class="btn btn--with-icon btn--size-s">
+                                <i class="fab fa-google"></i>
+                                Kết nối với google
+                            </a>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div> -->
+
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <!-- <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                           <span class="auth-form__switch-btn">Đăng kí</span>
+                        </div> -->
+                        <!-- <div class="auth-form__form">
+                    
+                        <!-- <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                            <!-- <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu"> -->
+                        </div>
+                        <!-- <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link">
+                                Quên mật khẩu
+                            </a>
+                            <span class="auth-form__help-sep"></span>
+                            <a href="" class="auth-form__help-link">
+                                Cần trợ giúp
+                            </a>
+                            </div>
+                            
+                        </div> -->
+                        <!-- <div class="auth-form__controls">
+                            <button class="btn auth-form__controls-back">Trở lại</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div> -->
+                        <!-- <div class="auth-form__socials">
+                            <a href="" class="btn btn--with-icon btn--size-s">
+                                <i class="fab fa-facebook-square"></i>
+                                Đăng nhập với facebook
+                            </a>
+                            <a href="" class="btn btn--with-icon btn--size-s">
+                                <i class="fab fa-google"></i>
+                                Đăng nhập với google
+                            </a>
+                        </div> -->
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>

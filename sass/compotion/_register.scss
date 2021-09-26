@@ -1,0 +1,97 @@
+.auth-form {
+    width: 50rem;
+    &__container{
+        // padding: 0 3.2rem;
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 32px;
+        margin-top: 10px;
+    }
+    &__heading {
+        // margin: 0;
+        font-weight: 400;
+        font-size: 2.2rem;
+        color: $black-color;
+    }   
+    &__switch-btn {
+        cursor: pointer;
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $color-primary-text;
+    }
+    &__group {
+        padding: 0 20px;
+
+    }
+    &__input {
+        display: block;
+        margin-top: 1.6rem;
+        border: 1px solid $border-color;
+        padding: 0 1.2rem;
+        width: 100%;
+        height: 4rem;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        font-weight: 400;
+        outline: none;
+    }
+    &__input:focus {
+        border-color: #888;
+    }
+    &__aside {
+        margin-top: 1.8rem;
+        padding: 0 20px;
+        p {
+            font-size: 1.3rem;
+            font-weight: 300;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+    }
+    &__link {
+        text-decoration: none;
+        color: $color-primary-text;
+    }
+    &__controls {
+       margin-top: 8rem;
+       display: flex;
+       justify-content: flex-end;
+        padding: 0 20px;
+       &-back {
+        //    margin-right: 8px;
+        
+       }
+    }
+    &__socials {
+        background-color: #f5f5f5;
+        padding: 12px 48px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    //login
+    &__help{
+        display: flex;
+            justify-content: flex-end;
+        &-link {
+            
+            text-decoration: none;
+            font-size: 1.4rem;
+        }
+        &-sep {
+            height: 22px;
+            display: block;
+            border-left: 1px solid $border-color;
+            margin: 0 16px;
+        }
+    }
+
+}
+
+.btn.auth-form__controls-backs {
+    background-color: #666;
+}

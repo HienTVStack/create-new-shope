@@ -1,0 +1,18 @@
+$white-color: #ffffff;
+$black-color: #000;
+$text-color: #333;
+$color-primary: linear-gradient(0, #fe6433, #eb3d2e);
+$color-primary-text: #eb3d2e;
+$border-color: #dbdbdb;
+
+$header-height: 12rem;
+$navbar-height: 3.4rem;
+$header-with-search-height: $header-height - $navbar-height;
+$star-gold-color: #FFCE3E;
+$header-sort-bar-height: 46px;
+
+@media (max-width: 1023px) {
+    $header-height: 6.8rem;
+    $navbar-height: 0rem;
+   // $header-with-search-height: $header-height - $navbar-height;
+}

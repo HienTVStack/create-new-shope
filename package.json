@@ -1,0 +1,16 @@
+{
+  "name": "shopee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-sass sass/main.scss assets/css/style.css -w",
+    "test2": "node-sass sass/grid.scss assets/css/grid.css",
+    "test3": "node-sass sass/responsive.scss assets/css/responsive.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

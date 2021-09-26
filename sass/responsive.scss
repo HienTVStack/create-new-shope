@@ -1,0 +1,125 @@
+$header-height: 6.8rem;
+$navbar-height: 0rem;
+$header-sort-bar-height: 4.6rem;
+/* Mobile and tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header {
+        height: $header-height;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        right: 0;
+        left: 0;
+        &__navbar {
+            height: 0;
+        }
+        &__with--search {
+            height: $header-height - $navbar-height;
+        }
+        &__cart {
+            &--list {
+                position: fixed;
+                right: 0;
+                top: $header-height;
+                width: 100%;
+                padding: 0 calc((100% - 644px) / 2);
+                &::after {
+                    display: none;
+                }
+            }
+        }
+        &__sort-bar {
+            display: flex;
+        }
+    }
+
+    .app__container {
+        margin-top: $header-height + $header-sort-bar-height;
+
+    }
+    .app-content {
+        padding-top: 0;
+    }
+    
+}
+
+/* Tablet */ 
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .header__cart {
+        width: 7.4rem;
+        text-align: right;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .header__with--search {
+        justify-content: space-between;
+    }
+    .header__logo {
+        width: unset;
+    }
+    .header__cart {
+        width: unset;
+    }
+    .header__cart--wrap {
+        padding: 0 12px;
+    }
+    .header__search {
+        position: fixed;
+        top: 68px;
+        // opacity: 0;
+        right: 0;
+        left: 0;
+        height: 46px;
+        z-index: 1;
+        box-shadow: 0 1px 2px rgba($color: #000000, $alpha: 0.05);
+        border: 1px solid #CCC;
+        padding: 0 16px;
+        animation: mobileSearchSideIn linear 0.3s;
+        display: none;
+    }
+    .header__search--history {
+        position: fixed;
+        top: $header-height + $header-sort-bar-height;
+        left: 0;
+        box-shadow: 0 1px 2px rgba($color: #000000, $alpha: 0.05);
+        border-radius: none;
+    }
+    .pagination-item {
+        margin: 0;
+    }    .pagination-item__link {
+        height: 28px;
+        font-size: 1.6rem;
+        min-width: 36px;
+    }
+    .app-content {
+        margin: 0 4px;
+        padding-top: 0;
+    }
+    .header__mobile-search {
+        display: block;
+    }
+    .mobile-category__list {
+        display: flex;
+    }
+    .header__logo--img {
+        width: 100px;
+    }
+    .footer__content {
+        padding: 0 16px;
+    }
+}
+
+
+
