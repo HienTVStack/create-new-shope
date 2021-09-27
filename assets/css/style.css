@@ -524,7 +524,7 @@ html {
     height: 4rem;
     background-color: #ffffff;
     cursor: default;
-    user-select: none; }
+    }
     .header__notify--header h3 {
       color: #666;
       margin: 0 0 0 1.2rem;
